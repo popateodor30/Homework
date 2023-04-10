@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+
+</head>
+
+<body>
+    
+    <form>
+        <label for="nume-complet">Nume complet</label>
+        <input type="text" name="nume" id="nume-complet" >
+
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <div class="radio metode-plata">
+          <p>Alegeti metoda de plata</p>
+          <label for="plata-cash">Plata cash</label>
+          <input type="radio" name="metode-plata" id="plata-cash" value="plata-cash">
+          <label for="plata-card">Plata cu cardul</label>
+          <input type="radio" name="metode-plata" id="plata-card" value="plata-card">
+          <label for="transfer-bancar">Transfer bancar</label>
+          <input type="radio" name="metode-plata" id="transfer-bancar" value="transfer-bancar">
+        </div>
+
+        <div class="termeni-conditii">
+          <label for="newsletter">Doresc să primesc informații pe mail</label>
+          <input type="checkbox" name="newsletter" id="newsletter">
+
+          <br>
+
+          <label for="terms-conditions">Sunt de acord cu termenii și condițiile</label>
+          <input type="checkbox" name="terms-conditions" id="terms-conditions">
+        </div>
+       
+        <button type="submit">Submit</button>
+      </form> 
+
+</body>
+
+</html>
